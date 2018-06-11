@@ -1,0 +1,11 @@
+/*
+ * Programming Quiz: JuliaJames (4-1)
+ */
+
+var x = 1;
+
+while (x<=20) {
+    var quiz = ((x%3 === 0 && x%5 === 0? "JuliaJames" : (x%3 === 0? "Julia" : (x%5 === 0? "James" : (x)))));// check divisibility
+    console.log(quiz);    // print Julia, James, or JuliaJames
+    x=x+1;// increment x
+}
