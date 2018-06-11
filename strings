@@ -1,0 +1,6 @@
+/*
+ * Programming Quiz: All Tied Up (2-5)
+ */
+
+var joke = "Did you read the paper today? \"I am dead!\" They say \nSo where are you calling me from now?"
+console.log(joke);
