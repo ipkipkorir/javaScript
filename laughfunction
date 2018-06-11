@@ -1,0 +1,16 @@
+/*
+ * Programming Quiz: Laugh (5-4)
+ */
+
+var laugh = function(x)
+{
+    var y = "";
+   for(var i=1; i<=x; i++) 
+   {
+       y += "ha";
+   }
+   return y + "!";
+}
+/* finish the function expression */
+
+console.log(laugh(3));
