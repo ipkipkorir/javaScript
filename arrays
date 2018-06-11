@@ -1,0 +1,12 @@
+/*
+ * Programming Quiz: UdaciFamily (6-1)
+ */
+
+var udaciFamily = ["Julia", "James", "Kipkorir"];
+var arrayLength = 3;
+for(var x = 0; x < arrayLength; x++)
+{
+    console.log(udaciFamily[x]);
+}
+//console.log(udaciFamily[0], udaciFamily[1], udaciFamily[2]);
+// your code goes here
